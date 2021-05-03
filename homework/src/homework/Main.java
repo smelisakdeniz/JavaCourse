@@ -1,8 +1,8 @@
+package homework;
 
 public class Main {
 
 	public static void main(String[] args) {
-		
 		StudentManager studentManager = new StudentManager();
 		Student student = new Student(1,"Þafak Melis AKDENÝZ","smelisakdeniz@gmail.com",
 				"123456", 41);
@@ -17,8 +17,8 @@ public class Main {
 		
 		
 		
-		ÝnstructorManager instructorManager = new ÝnstructorManager();
-		Ýnstructor instructor = new Ýnstructor(1, "Engin Demiroð", "engindemirog@gmail.com","123456");
+		InstructorManager instructorManager = new InstructorManager();
+		Instructor instructor = new Instructor(1, "Engin Demiroð", "engindemirog@gmail.com","123456");
 		
 		instructor.id=1;
 		instructor.nameSurname="Engin Demiroð";
@@ -29,5 +29,6 @@ public class Main {
 		instructorManager.add(instructor);
 		
 	}
+
 
 }

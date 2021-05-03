@@ -1,3 +1,4 @@
+package homework;
 
 public class Student extends User {
 	int student›d;
@@ -21,5 +22,4 @@ public class Student extends User {
 	public void setStudentLevel(double studentLevel) {
 		this.studentLevel = studentLevel;
 	}
-	
 }

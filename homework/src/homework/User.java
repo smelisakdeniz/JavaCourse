@@ -1,7 +1,6 @@
+package homework;
 
-public class 
-User {
-	
+public class User {
 	int id;
 	String nameSurname;
 	String email;
@@ -55,7 +54,4 @@ User {
 		this.password = password;
 	}
 
-	
-
-	
 }

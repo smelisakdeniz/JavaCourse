@@ -1,11 +1,11 @@
+package homework;
 
-public class ›nstructor extends User {
-	
-	int instructor›d;
+public class Instructor extends User {
+ int instructor›d;
 	
 
 	
-	public ›nstructor(int instructor›d, String nameSurname, String email , String password) {
+	public Instructor(int instructor›d, String nameSurname, String email , String password) {
 		super();
 		this.instructor›d = instructor›d;
 	}
@@ -17,5 +17,4 @@ public class ›nstructor extends User {
 	public void setInstructor›d(int instructor›d) {
 		this.instructor›d = instructor›d;
 	}
-	
 }

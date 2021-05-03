@@ -1,6 +1,7 @@
+package homework;
 
 public class StudentManager extends UserManager{
-	
+
 	@Override
 	
 	public void add(User user) {

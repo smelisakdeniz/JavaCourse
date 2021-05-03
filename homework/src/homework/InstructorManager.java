@@ -1,6 +1,6 @@
+package homework;
 
-public class ÝnstructorManager extends UserManager{
-	
+public class InstructorManager extends UserManager{
 	@Override
 	public void add(User user) {
 		System.out.println( user.getNameSurname() + " " + " eðitmen eklendi");
